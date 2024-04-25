@@ -7,13 +7,16 @@ Our paper is [here](https://arxiv.org/abs/2404.15758)
 # Setup
 
 # Example Usage
-python -m scripts.data_match3 --name minidata --length 10
+```
+python -m scripts.data_match3 --name minidata --length 10 --train_samples 100000
 python -m scripts.run_match3 -dn minidata -e 1 -de minidata -ma P -m 'llama' -cc llama_d384l4h6.json
+```
 
 # Citation
 
 If you use our work, consider citing it using the below!
 
+```
 @article{pfau2024lets,
       title={Let's Think Dot by Dot: Hidden Computation in Transformer Language Models}, 
       author={Jacob Pfau and William Merrill and Samuel R. Bowman},
@@ -22,3 +25,4 @@ If you use our work, consider citing it using the below!
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
