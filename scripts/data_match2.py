@@ -22,7 +22,7 @@ def main():
     parser.add_argument('--cot_to_string', type=str, choices=['b10_basic'], default='b10_basic', help='Function for cot string transformation')
     parser.add_argument('--no_filler_to_string', type=str, choices=['b10_no_filler',], default='b10_no_filler', help='Function for no filler string transformation')
 
-    parser.add_argument('--data_path', type=str, default='/scratch/jp6263/fillerV2/data/', help='Path to save the dataset')
+    parser.add_argument('--data_path', type=str, default='./data/', help='Path to save the dataset')
 
     args = parser.parse_args()
     

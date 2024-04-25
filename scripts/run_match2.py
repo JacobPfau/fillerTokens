@@ -49,11 +49,11 @@ if __name__ == "__main__":
     parser.add_argument('-tr', '--train_data', type=str, default=None, help='train data filename, None for most recent')
     parser.add_argument('-te', '--test_data', type=str, default=None, help='test data filename, None for most recent')
     parser.add_argument('-dc', '--data_config', type=str, default=None, help='Filename for data config, None for most recent')
-    parser.add_argument('-b', '--base_path', type=str, default='/scratch/jp6263/slackV2/')
-    parser.add_argument('-hf', '--huggingface_path', type=str, default='/scratch/jp6263/hf/')
+    parser.add_argument('-b', '--base_path', type=str, default='./')
+    parser.add_argument('-hf', '--huggingface_path', type=str, default='./hf/')
 
     parser.add_argument('-nhf', '--no_wdb', action='store_true')
-    parser.add_argument('-wdb', '--wandb_project', type=str, default='slack-slack', help='wandb project name')
+    parser.add_argument('-wdb', '--wandb_project', type=str, help='wandb project name')
 
     args = parser.parse_arguments()
     

@@ -194,7 +194,7 @@ def GenerateMatch3Dataset(name, train_samples=int(1e4), test_samples=int(1e3),
                           dimension=3, mod=10, length=7, 
                           true_instance_rate=0.5, cot_rate=0.5, no_filler_rate=0, corruption_rate=4/3, 
                           filler_to_string=None, cot_to_string=rand_cot, no_filler_to_string=None,
-                          data_path='/scratch/jp6263/slackV2/data/'):
+                          data_path='./data/'):
     """
     Generate a dataset for the Match3 class.
     

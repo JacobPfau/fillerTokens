@@ -19,7 +19,7 @@ def main():
     
     parser.add_argument('--cot_to_string', type=str, choices=['rand_cot', 'serial'], default='rand_cot', help='Function for cot string transformation')
 
-    parser.add_argument('--data_path', type=str, default='/scratch/jp6263/slackV2/data/', help='Path to save the dataset')
+    parser.add_argument('--data_path', type=str, default='./data/', help='Path to save the dataset')
 
     args = parser.parse_args()
 
