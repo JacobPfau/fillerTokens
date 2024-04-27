@@ -5,6 +5,7 @@ Chain-of-thought responses from language models improve performance across most 
 Our paper is [here](https://arxiv.org/abs/2404.15758)
 
 # Setup
+pip install -r requirements.txt
 
 # Example Usage
 ```
